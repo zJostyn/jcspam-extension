@@ -1,4 +1,4 @@
-//const submitUrl = 'https://borang.skrin.xyz/';
+//const submitUrl = 'https://jcspam.vercel.app/submit';
 const submitUrl = 'http://localhost:5000/submit';
 
 chrome.storage.local.get(['isBorangEnabled']).then((result) => {

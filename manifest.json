@@ -1,6 +1,6 @@
 {
   "name": "JC Spam",
-  "description": "Spam Google Form like a champ",
+  "description": "Spam Formularios de Google",
   "version": "0.1.6",
   "manifest_version": 3,
   "icons": { "128": "icon_128.png" },
@@ -18,7 +18,7 @@
     {
       "matches": [
         "https://docs.google.com/forms/*",
-        "https://borang.skrin.xyz/submit",
+        "https://jcspam.vercel.app/submit",
 				"http://localhost:5000/submit"
       ],
       "js": ["content/content.js"],
