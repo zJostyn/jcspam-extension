@@ -1,0 +1,28 @@
+{
+  "name": "JC Spam",
+  "description": "Spam Google Form like a champ",
+  "version": "0.1.6",
+  "manifest_version": 3,
+  "icons": { "128": "icon_128.png" },
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://docs.google.com/forms/*",
+        "https://borang.skrin.xyz/submit",
+				"http://localhost:5000/submit"
+      ],
+      "js": ["content/content.js"],
+      "css": ["content/content.css"]
+    }
+  ]
+}
