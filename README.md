@@ -7,7 +7,7 @@
 ## Web and Client Source
 - Puedes obtener la pagina web y el cliente para poder utilizar de manera local o subirla a un servidor aqui:
 
-[JCSpam Chrome Extension](https://github.com/zjostyn/jc-spam-web)
+[JCSpam Chrome Extension](https://github.com/zjostyn/jcspam-web)
 
 ## Licence
 This project is licensed under the [MIT License](https://github.com/ADIBzTER/borang/blob/master/LICENSE)
